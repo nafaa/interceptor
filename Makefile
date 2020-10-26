@@ -16,12 +16,14 @@ all: clean interceptor
 interceptor: $(OBJ_FILES) $(C_OBJ_FILES) 
 	$(CXX) $(MACRO) $(LDFLAGS) -o  $@ $^ $(SYSLIB)
 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp  
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp obj  
 	$(CXX)  $(MACRO) $(CPPFLAGS) $(CXXFLAGS) -c -o $@ $<
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c 
 	$(CC)  $(MACRO) $(CPPFLAGS) $(CXXFLAGS) -c -o $@ $<
  
+obj:
+	mkdir $@
 
 clean:
 	echo "Clean ..."
