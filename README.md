@@ -52,8 +52,7 @@ cd interceptor
 
 
 The anatomy of a full HLS url   = http://remote_host/remote_path
-
-Using VLC player as client :  htrp://bind_address:local_port/remote_path
+The URL on your player should be :  http://bind_address:local_port/remote_path
 
 If we assume server is serving on 127.0.0.1:8080 for the below url put the corresponding url on VLC
 
