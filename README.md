@@ -66,8 +66,8 @@ cd interceptor
 
 Todo
 ===================
-Support for Windows 
-Add logging levels
+  - Support for Windows 
+  - Creating a logging system to control of log levels and log types
   
 License
 ----
