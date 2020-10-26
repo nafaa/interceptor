@@ -51,10 +51,10 @@ cd interceptor
 
 
 
-The anatomy of a full HLS url   = http://remote_host/remote_path
-The URL on your player should be :  http://bind_address:local_port/remote_path
+- The anatomy of a full HLS url   = http://remote_host/remote_path
+- The URL on your player should be :  http://bind_address:local_port/remote_path
 
-If we assume server is serving on 127.0.0.1:8080 for the below url put the corresponding url on VLC
+- If we assume server is serving on 127.0.0.1:8080 for the below url put the corresponding url on VLC
 
 
 	https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8 
