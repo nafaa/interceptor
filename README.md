@@ -25,7 +25,7 @@ sudo apt-get install -y libssl-dev
 Install
 ===================
 Download or clone latest files:
-git clone https: 
+https://github.com/nafaa/interceptor.git
 
 cd interceptor
 
